@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 81289584}
   - component: {fileID: 81289583}
   m_Layer: 5
-  m_Name: LSLabel
+  m_Name: SLabel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -265, y: -25}
+  m_AnchoredPosition: {x: -285, y: -25}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &81289583
@@ -897,6 +897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialGameSpeed: 5
   gameSpeedIncrease: 0.1
+  scoreText: {fileID: 1393061865}
+  hiscoreText: {fileID: 2002180390}
   gameOverText: {fileID: 285376870}
   retryButton: {fileID: 1265287363}
 --- !u!1 &1265287361
@@ -1090,7 +1092,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00000
+  m_text: 000000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6fd540f790cbd3b4db4dbf3eca6528fe, type: 2}
   m_sharedMaterial: {fileID: -8597168457236102827, guid: 6fd540f790cbd3b4db4dbf3eca6528fe, type: 2}
@@ -1442,7 +1444,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 350, y: -25}
+  m_AnchoredPosition: {x: 335, y: -25}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &2002180390
@@ -1465,7 +1467,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00000
+  m_text: 000000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6fd540f790cbd3b4db4dbf3eca6528fe, type: 2}
   m_sharedMaterial: {fileID: -8597168457236102827, guid: 6fd540f790cbd3b4db4dbf3eca6528fe, type: 2}
