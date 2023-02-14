@@ -42,6 +42,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.Instance.PlayBackground();
+
         player = FindObjectOfType<PlayerController>();
         spawner = FindObjectOfType<ObstacleSpawner>();
 
@@ -88,6 +90,12 @@ public class GameManager : MonoBehaviour
     {
         gameSpeed += gameSpeedIncrease * Time.deltaTime;
         score += gameSpeed * Time.deltaTime;
+
+        if (Mathf.FloorToInt(score) % 100 == 0 && Mathf.FloorToInt(score) != 0)
+        {
+            AudioManager.Instance.PlayScore();
+        }
+
         scoreText.text = Mathf.FloorToInt(score).ToString("D6");
     }
 

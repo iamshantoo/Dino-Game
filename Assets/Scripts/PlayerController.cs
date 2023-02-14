@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
             if (Input.GetButton("Jump"))
             {
                 direction = Vector3.up * jumpForce;
+                AudioManager.Instance.PlayJump();
             }
         }
 
@@ -42,6 +43,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("Obstacle"))
         {
             GameManager.Instance.GameOver();
+            AudioManager.Instance.PlayDie();
         }
     }
 }
