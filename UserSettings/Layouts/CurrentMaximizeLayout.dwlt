@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 7529
+  controlID: 3422
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 7530
+  controlID: 3423
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 7531
+  controlID: 3321
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6ec3ffff
-      m_LastClickedID: -15506
-      m_ExpandedIDs: d0ebffff3eedffff26fbffff
+      m_SelectedIDs: c0770000
+      m_LastClickedID: 30656
+      m_ExpandedIDs: e6f8ffff26fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -556,9 +556,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 827.97925, y: 673.07526, z: -6.4253197}
+    m_Target: {x: 820.1799, y: 509.2881, z: -8.315743}
     speed: 2
-    m_Value: {x: 827.97925, y: 673.07526, z: -6.4253197}
+    m_Value: {x: 820.1799, y: 509.2881, z: -8.315743}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -609,9 +609,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 783.9524
+    m_Target: 972.9947
     speed: 2
-    m_Value: 783.9524
+    m_Value: 972.9947
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -660,7 +660,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 7442
+  controlID: 3424
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -729,22 +729,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Fonts
+    - Assets/Sprites
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 83
   m_LastFolders:
-  - Assets/Fonts
+  - Assets/Sprites
   m_LastFoldersGridSize: 83
   m_LastProjectPath: C:\Users\iamsh\Documents\GitHub\Dino-Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06610000
-    m_LastClickedID: 24838
-    m_ExpandedIDs: 00000000f460000000ca9a3b
+    m_SelectedIDs: 3e600000
+    m_LastClickedID: 24638
+    m_ExpandedIDs: 000000002c60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -772,7 +772,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f460000000ca9a3b
+    m_ExpandedIDs: 000000002c60000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -797,8 +797,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6ec3ffff
-    m_LastClickedInstanceID: -15506
+    m_SelectedInstanceIDs: c0770000
+    m_LastClickedInstanceID: 30656
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001c610000
     m_RenameOverlay:
